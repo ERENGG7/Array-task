@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 while true; do
-    read "commit_message?enter commit message"
+    read "commit_message?enter commit message: "
 
     if [[ -z "$commit_message" ]];then
         echo "Commit message can't be empty."
