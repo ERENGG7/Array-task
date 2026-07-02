@@ -2,6 +2,7 @@
 
 # Use this script only for commiting into local git repository
 while true; do
+    echo "Enter 'stop' to exit."
     read "commit_message?enter commit message: "
 
     if [[ -z "$commit_message" ]];then
@@ -18,5 +19,7 @@ while true; do
     break
 
 done
+
+exit 0
 
  
